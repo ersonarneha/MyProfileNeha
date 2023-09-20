@@ -5,56 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
     <style>
-      header{
+      header {
         background-color: rgb(238, 208, 187);
         color: indigo;
+      }
+      .contact {
+        margin-right: 50px;
+      }
+     
+      .header-icons{
+        margin-right: 10px;
+      }
+      .list{
+        margin-right: 50px;
+      }
+      .socialmedia{
+        margin-right: 40px;
+      }
+      .nav{
+        padding-bottom: 20px;
+      }
+      #header{
+        margin-bottom: 10px;
+      }
+      #footer{
+        margin-top: 20px;
       }
     </style>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <link rel="shortcut icon" href="assets/MY favicon.png" type="image/x-icon">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/MY favicon.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Header section -->
-    <header>
-      <i class="fa fa-user" aria-hidden="true"></i> &nbsp;<span
-        >Mohit Sharma</span
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;<span
-        >+91 860 055 5099</span
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<span
-        >mohit.sharma@gmail.com</span
-      >
+    <header id="header">
+      <i class=" header-icons fa fa-user" aria-hidden="true"></i>
+      <span class="contact"> Mohit Sharma</span>
+      <i class=" header-icons fa fa-phone-square" aria-hidden="true"></i
+      ><span class="contact">+91 860 055 5099</span>
+      <i class="header-icons fa fa-envelope" aria-hidden="true"></i
+      ><span>mohit.sharma@gmail.com</span>
     </header>
     <br />
     <!-- Navigation section -->
-    <nav>
-      <a href="home.html" target="myFrame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="techstack.html" target="myFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="project.html" target="myFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="education.html"target="myFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <nav class="nav">
+      <a href="home.html" target="myFrame" class="list">HOME</a
+      >
+      <a href="techstack.html" target="myFrame" class="list">TECH STACK</a
+      >
+      <a href="project.html" target="myFrame" class="list">PROJECT</a
+      >
+      <a href="education.html" target="myFrame" class="list">EDUCATION</a
+      >
+      <a href="">OTHERS</a>
       <a href="">PERSONAL</a>
     </nav>
-    <br />
+    
     <!-- main section -->
-    <iframe src="home.html" width="1000px" height="400px" name="myFrame"></iframe><br /><br />
-    <footer>
-      <label for=""><strong>Follow Me</strong></label> &nbsp;&nbsp; &nbsp;
-      &nbsp;
+    <iframe class="abc"
+      src="home.html"
+      width="1000px"
+      height="400px"
+      name="myFrame"
+    ></iframe
+    >
+    <footer id="footer">
+      <label for=""><strong class="socialmedia">Follow Me</strong></label>
+      
 
-      <a href="https://www.linkedin.com/" target="_blank"
+      <a href="https://www.linkedin.com/" target="_blank" class="socialmedia"
         ><i class="fa fa-1x fa-linkedin-square" aria-hidden="true"></i></a
-      >&nbsp; &nbsp; &nbsp;
-      <a href="https://www.google.com/" target="_blank"
+      >
+      <a href="https://www.google.com/" target="_blank" class="socialmedia"
         ><i class="fa fa-1x fa-google" aria-hidden="true"></i></a
-      >&nbsp; &nbsp;
-      <a href="https://www.instagram.com/" target="_blank"
+      >
+      <a href="https://www.instagram.com/" target="_blank" class="socialmedia"
         ><i class="fa fa-1x fa-instagram" aria-hidden="true"></i></a
-      >&nbsp; &nbsp;
-      <a href="https://www.facebook.com/" target="_blank"
+      >
+      <a href="https://www.facebook.com/" target="_blank" class="socialmedia"
         ><i class="fa fa-1x fa-facebook-official" aria-hidden="true"></i
       ></a>
     </footer>

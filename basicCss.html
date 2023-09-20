@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <style>
         h2{
             color: cadetblue;
@@ -31,17 +34,41 @@ background-color: bisque;
         h3,h4,#personal,.dummy{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+        h3,h4,#personal{
+            font-family: 'Roboto', sans-serif;
+ ;
+        }
         #developer{
             color: chocolate;
         }
-       
+       .tools{
+        /* border-style: solid;
+        border-width: 2px;
+        border-color: rgb(226, 168, 43); */
+          border:2px,solid,rgb(226, 168, 43);
+margin-top: 50px;
+margin-left: 20px;
+
+/* padding-left: 40px;
+padding-top: 20px;
+padding-right: 30px;
+padding-bottom: 50px; */
+padding: 20px,30px,50px,40px;
+/* sequence is top right bottom left */
+
+/* padding-left: 20px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px; */
+padding: 10px,20px;121
+       }
     </style>
 </head>
 <body>
     <!-- Inline css -->
     <p style="color: green; font-size: larger; font-weight: bolder;">When you join meetings,webinars,chats 
         or channels hosted on zoom,your</p>
-        <p style="color: green;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, aliquam!</p>
+        <p style="color: green; font-family: 'Poppins', sans-serif;;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, aliquam!</p>
         <!-- internal css -->
         <h2 id="personal">My personal details</h2>
         <p id="myName">Name: Mohit Sharma</p>
@@ -56,6 +83,7 @@ background-color: bisque;
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, recusandae!</h4>
         <p class="dummy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsam.</p>
         <p>I am <span id="developer">UI developer</span> having expertise in angular</p>
+        <p class="tools">I know tools: Git,Desktop,Github,Agile and JIRA</p>
         </body>
         </html>
 </body>
